@@ -1,0 +1,53 @@
+<html>
+
+    <head>
+
+        <!-- Configurar página --> 
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1" charset="iso-8859-1"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+
+        <!-- Importa bibliotecas --> 
+        <link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css">
+        <script src="jquery/jquery-1.11.3.min.js"></script>
+        <script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+
+        <!-- IMPORTAR CSS -->
+        <link rel="stylesheet" href="css/estilo.css">
+        
+    </head>
+
+    <body>
+
+
+        <!-- PÁGINA DO MENU-->   
+        <div data-role="page" id="pg_menu">
+
+            <!-- Cabeçalho -->   
+            <div data-theme="a" data-role="header">
+                <h3>MENU</h3>
+            </div>
+
+            <!-- Corpo --> 
+
+            <div data-role="content">
+                
+                
+                    <div data-role="controlgroup" data-type="vertical">
+                        <a href="#" class="ui-btn">criar uma lista</a>                        
+                    </div>
+                    <div data-role="navbar" data-iconpos="right">
+                        <a href="index.html" onclick="rendeTodos();" data-icon="carat-l" data-rel="close" class="ui-btn ui-btn-b ui-btn-inline ui-corner-all ui-shadow">Fechar Menu</a>
+                    </div>
+                </div>
+    
+
+      
+
+            <!-- Rodapé --> 
+            <div data-role="footer">
+                <h3>Versão 1.1</h3>
+            </div>
+            <script src="js/script.js"></script>
+    </body>
+
+</html>

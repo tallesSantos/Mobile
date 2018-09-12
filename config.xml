@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.calculadora.calculadora"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+  <!-- Nome do aplicativo -->
+  <name>Lista</name>
+
+  <!-- Descrição -->
+  <description>
+      App feito por 'Talles Rosa dos Santos' para o pratica de programação javascript
+  </description>
+
+  <!-- Autor -->
+  <author href="#" email="talles.saint@gmail.com">
+      Talles Rosa dos Santos
+  </author>
+
+  <!-- Ícone -->
+  <icon src="imagens/lista.png"/>
+
+  <!-- Plataformas -->
+  <platform name="ios"></platform>
+  <platform name="android" minVersion="2.1"></platform>
+  <platform name="winphone"></platform>
+
+  <!-- Preferências -->
+  <preference name="phonegap-version" value="cli-6.5.0" />
+  <preference name="fullscreen" value="true" />
+
+  <!-- Preferências - iOS -->
+  <preference name="target-device" value="universal" />
+  <preference name="prerendered-icon" value="true" />
+  <preference name="detect-data-types" value="true" />
+  <preference name="exit-on-suspend" value="true" />
+  <preference name="deployment-target" value="7.0" />
+
+  <!-- Preferências - Android -->
+  <preference name="android-build-tool" value="ant|gradle" />
+  <preference name="android-minSdkVersion" value="10" />
+  <preference name="android-maxSdkVersion" value="15" />
+  <preference name="android-targetSdkVersion" value="12" />
+  <preference name="android-installLocation" value="auto" />
+  <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" />
+
+  <!-- API's externas -->
+  <feature name="http://api.phonegap.com/1.0/geolocation"/>
+  <feature name="http://api.phonegap.com/1.0/network"/>
+  <feature name="http://api.phonegap.com/1.0/file"/>
+  <feature name="http://api.phonegap.com/1.0/camera"/>
+  <feature name="http://api.phonegap.com/1.0/media"/>
+  <feature name="http://api.phonegap.com/1.0/device"/>
+
+</widget>
